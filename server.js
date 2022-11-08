@@ -7,3 +7,10 @@ const port = process.env.PORT || 3200; // <== You can change the port
 server.use(middlewares);
 server.use(router);
 server.listen(port);
+
+// heroku login
+// heroku create fake-server-app
+
+// git push heroku master
+
+// heroku open
